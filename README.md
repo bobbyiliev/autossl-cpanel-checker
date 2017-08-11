@@ -8,7 +8,7 @@ You need to run it as root if you would like to monitor the SSL certificate stat
 Just use this as cron job, here's an example
  - Copy the content of the file and add it to your server
  - Make the file executable by the user:
-chmod u+x /root/autosslcheck/autosslcheck.sh
+# chmod u+x /root/autosslcheck/autosslcheck.sh
  - Open your crontab:
 # crontab -e
  - And add:
