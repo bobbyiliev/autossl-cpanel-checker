@@ -3,11 +3,15 @@ This is a short script that would loop though All of the domain names on your cP
 
 You need to run it as root if you would like to monitor the SSL certificate status for all sites on a server.
 
-##
-# Just use this as cron job, here's an example
-# chmod u+x /root/autosslcheck/autosslcheck.sh
+Just use this as cron job, here's an example
+ - Copy the content of the file and add it to your server
+ - Make the file executable by the user:
+chmod u+x /root/autosslcheck/autosslcheck.sh
+ - Open your crontab:
 # crontab -e
-# And add:
+ - And add:
+ 
 # # AutoSSL checker
 # 0 7 * * * /root/autosslcheck/autosslcheck.sh
-##
+
+That is pretty much it! Make sure to update the variables in the script accordingly. 
