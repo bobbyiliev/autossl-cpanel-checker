@@ -7,6 +7,15 @@
 # 2017 Bobby I.                       
 ##
 
+##
+# Just use this as cron job, here's an example
+# chmod u+x /root/autosslcheck/autosslcheck.sh
+# crontab -e
+# And add:
+# # AutoSSL checker
+# 0 7 * * * /root/autosslcheck/autosslcheck.sh
+##
+
 # Enter your servername here:
 server="example.servername.net"
 
